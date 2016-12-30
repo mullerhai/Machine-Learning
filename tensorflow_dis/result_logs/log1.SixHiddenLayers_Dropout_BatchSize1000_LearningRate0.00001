@@ -1,0 +1,1086 @@
+nohup: ignoring input
+I0919 18:15:25.634450466   58432 socket_utils_common_posix.c:161] Disabling AF_INET6 sockets because socket() failed.
+E tensorflow/core/client/tensor_c_api.cc:485] /tmp/tmpGXDUCm/model.ckpt-0.tempstate3100553774856237684
+	 [[Node: save/save = SaveSlices[T=[DT_FLOAT, DT_FLOAT, DT_INT32, DT_FLOAT, DT_FLOAT, DT_FLOAT, DT_FLOAT, DT_FLOAT, DT_FLOAT, DT_FLOAT, DT_FLOAT, DT_FLOAT, DT_FLOAT, DT_FLOAT, DT_FLOAT, DT_FLOAT, DT_FLOAT, DT_FLOAT, DT_FLOAT, DT_FLOAT, DT_FLOAT, DT_FLOAT, DT_FLOAT, DT_FLOAT, DT_FLOAT, DT_FLOAT, DT_FLOAT, DT_FLOAT, DT_FLOAT, DT_FLOAT, DT_FLOAT, DT_FLOAT, DT_FLOAT, DT_FLOAT, DT_FLOAT, DT_FLOAT, DT_FLOAT, DT_FLOAT, DT_FLOAT, DT_INT32, DT_FLOAT, DT_FLOAT, DT_FLOAT, DT_FLOAT, DT_FLOAT, DT_FLOAT], _device="/job:worker/replica:0/task:0/cpu:0"](_recv_save/Const_0_S111, save/save/tensor_names, save/save/shapes_and_slices, beta1_power_S113, beta2_power_S115, global_step_S117, hid_b1_S119, hid_b1/Adam_S121, hid_b1/Adam_1_S123, hid_b2_S125, hid_b2/Adam_S127, hid_b2/Adam_1_S129, hid_b3_S131, hid_b3/Adam_S133, hid_b3/Adam_1_S135, hid_b4_S137, hid_b4/Adam_S139, hid_b4/Adam_1_S141, hid_b5_S143, hid_b5/Adam_S145, hid_b5/Adam_1_S147, hid_b6_S149, hid_b6/Adam_S151, hid_b6/Adam_1_S153, hid_w1_S155, hid_w1/Adam_S157, hid_w1/Adam_1_S159, hid_w2_S161, hid_w2/Adam_S163, hid_w2/Adam_1_S165, hid_w3_S167, hid_w3/Adam_S169, hid_w3/Adam_1_S171, hid_w4_S173, hid_w4/Adam_S175, hid_w4/Adam_1_S177, hid_w5_S179, hid_w5/Adam_S181, hid_w5/Adam_1_S183, hid_w6_S185, hid_w6/Adam_S187, hid_w6/Adam_1_S189, local_steps_S191, sm_b_S193, sm_b/Adam_S195, sm_b/Adam_1_S197, sm_w_S199, sm_w/Adam_S201, sm_w/Adam_1_S203)]]
+Worker GRPC URL: grpc://10.103.123.63:2222
+Worker index = 0
+Number of workers = 2
+Worker 0: Initializing session...
+Worker 0: Session initialization complete.
+Starting chief queue runner and running init_tokens_op
+/home/chuanxin.tcx/Test/Data/eval_shuffled_part-00300
+/home/chuanxin.tcx/Test/Data/eval_shuffled_part-00301
+/home/chuanxin.tcx/Test/Data/eval_shuffled_part-00302
+/home/chuanxin.tcx/Test/Data/eval_shuffled_part-00303
+/home/chuanxin.tcx/Test/Data/eval_shuffled_part-00304
+/home/chuanxin.tcx/Test/Data/eval_shuffled_part-00305
+/home/chuanxin.tcx/Test/Data/eval_shuffled_part-00306
+/home/chuanxin.tcx/Test/Data/eval_shuffled_part-00307
+/home/chuanxin.tcx/Test/Data/eval_shuffled_part-00308
+/home/chuanxin.tcx/Test/Data/eval_shuffled_part-00309
+/home/chuanxin.tcx/Test/Data/eval_shuffled_part-00310
+/home/chuanxin.tcx/Test/Data/eval_shuffled_part-00311
+Training begins @ 1474280298.155851
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00310
+Current training file index: 310, Training data size: 212606
+1474280323.657457: Worker 0: training step 1 done (global step: 0), cross entropy = 0.800213
+Auc: 0.492, validation cross entropy =0.801679
+1474280720.955603: Worker 0: training step 104 done (global step: 100), cross entropy = 0.517421
+Auc: 0.456, validation cross entropy =0.396076
+1474281063.157594: Worker 0: training step 193 done (global step: 200), cross entropy = 0.421084
+Auc: 0.564, validation cross entropy =0.378051
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00307
+Current training file index: 307, Training data size: 211539
+1474281427.809323: Worker 0: training step 278 done (global step: 300), cross entropy = 0.346898
+Auc: 0.645, validation cross entropy =0.367207
+1474281774.142870: Worker 0: training step 381 done (global step: 400), cross entropy = 0.339435
+Auc: 0.684, validation cross entropy =0.358868
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00302
+Current training file index: 302, Training data size: 211559
+1474282172.957087: Worker 0: training step 481 done (global step: 500), cross entropy = 0.382207
+Auc: 0.701, validation cross entropy =0.355203
+1474282528.190892: Worker 0: training step 581 done (global step: 600), cross entropy = 0.377577
+Auc: 0.711, validation cross entropy =0.349247
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00308
+Current training file index: 308, Training data size: 212130
+1474282944.414036: Worker 0: training step 681 done (global step: 700), cross entropy = 0.407064
+Auc: 0.716, validation cross entropy =0.346736
+1474283299.032468: Worker 0: training step 781 done (global step: 800), cross entropy = 0.229051
+Auc: 0.721, validation cross entropy =0.341851
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00303
+Current training file index: 303, Training data size: 212082
+1474283716.040494: Worker 0: training step 881 done (global step: 900), cross entropy = 0.182023
+Auc: 0.724, validation cross entropy =0.338754
+1474284069.315472: Worker 0: training step 981 done (global step: 1000), cross entropy = 0.235416
+Auc: 0.726, validation cross entropy =0.33708
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00311
+Current training file index: 311, Training data size: 211855
+1474284487.677976: Worker 0: training step 1081 done (global step: 1100), cross entropy = 0.308152
+Auc: 0.728, validation cross entropy =0.334014
+1474284841.565907: Worker 0: training step 1181 done (global step: 1200), cross entropy = 0.270344
+Auc: 0.730, validation cross entropy =0.334041
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00306
+Current training file index: 306, Training data size: 211036
+1474285257.630866: Worker 0: training step 1281 done (global step: 1300), cross entropy = 0.323504
+Auc: 0.731, validation cross entropy =0.330998
+1474285611.087316: Worker 0: training step 1381 done (global step: 1400), cross entropy = 0.351539
+Auc: 0.732, validation cross entropy =0.330698
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00300
+Current training file index: 300, Training data size: 211555
+1474286028.921378: Worker 0: training step 1481 done (global step: 1500), cross entropy = 0.253002
+Auc: 0.733, validation cross entropy =0.32862
+1474286384.490932: Worker 0: training step 1581 done (global step: 1600), cross entropy = 0.414301
+Auc: 0.734, validation cross entropy =0.328432
+1474286776.501761: Worker 0: training step 1681 done (global step: 1700), cross entropy = 0.350908
+Auc: 0.734, validation cross entropy =0.326258
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00309
+Current training file index: 309, Training data size: 211515
+1474287156.331572: Worker 0: training step 1781 done (global step: 1800), cross entropy = 0.352573
+Auc: 0.735, validation cross entropy =0.326236
+1474287549.127182: Worker 0: training step 1881 done (global step: 1900), cross entropy = 0.224682
+Auc: 0.736, validation cross entropy =0.325242
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00305
+Current training file index: 305, Training data size: 212876
+1474287928.518877: Worker 0: training step 1981 done (global step: 2000), cross entropy = 0.246825
+Auc: 0.736, validation cross entropy =0.324653
+1474288319.838917: Worker 0: training step 2081 done (global step: 2100), cross entropy = 0.462675
+Auc: 0.737, validation cross entropy =0.32426
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00304
+Current training file index: 304, Training data size: 211334
+1474288698.855533: Worker 0: training step 2181 done (global step: 2200), cross entropy = 0.269631
+Auc: 0.737, validation cross entropy =0.323932
+1474289053.885820: Worker 0: training step 2281 done (global step: 2300), cross entropy = 0.347659
+Auc: 0.738, validation cross entropy =0.323267
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00301
+Current training file index: 301, Training data size: 211736
+1474289451.169769: Worker 0: training step 2381 done (global step: 2400), cross entropy = 0.342022
+Auc: 0.738, validation cross entropy =0.322883
+1474289804.923484: Worker 0: training step 2481 done (global step: 2500), cross entropy = 0.19595
+Auc: 0.739, validation cross entropy =0.321884
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00304
+Current training file index: 304, Training data size: 211334
+1474290221.767188: Worker 0: training step 2581 done (global step: 2600), cross entropy = 0.354561
+Auc: 0.739, validation cross entropy =0.321801
+1474290576.368590: Worker 0: training step 2681 done (global step: 2700), cross entropy = 0.179932
+Auc: 0.740, validation cross entropy =0.320962
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00300
+Current training file index: 300, Training data size: 211555
+1474290993.808132: Worker 0: training step 2781 done (global step: 2800), cross entropy = 0.200219
+Auc: 0.740, validation cross entropy =0.320885
+1474291348.239946: Worker 0: training step 2881 done (global step: 2900), cross entropy = 0.19779
+Auc: 0.740, validation cross entropy =0.320288
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00309
+Current training file index: 309, Training data size: 211515
+1474291764.257038: Worker 0: training step 2981 done (global step: 3000), cross entropy = 0.25792
+Auc: 0.741, validation cross entropy =0.319884
+1474292117.712672: Worker 0: training step 3081 done (global step: 3100), cross entropy = 0.286807
+Auc: 0.741, validation cross entropy =0.320038
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00305
+Current training file index: 305, Training data size: 212876
+1474292536.366545: Worker 0: training step 3181 done (global step: 3200), cross entropy = 0.323835
+Auc: 0.741, validation cross entropy =0.319221
+1474292890.427454: Worker 0: training step 3281 done (global step: 3300), cross entropy = 0.364178
+Auc: 0.742, validation cross entropy =0.319066
+1474293281.632013: Worker 0: training step 3381 done (global step: 3400), cross entropy = 0.473974
+Auc: 0.742, validation cross entropy =0.318135
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00307
+Current training file index: 307, Training data size: 211539
+1474293660.145983: Worker 0: training step 3481 done (global step: 3500), cross entropy = 0.375945
+Auc: 0.743, validation cross entropy =0.318267
+1474294051.974841: Worker 0: training step 3581 done (global step: 3600), cross entropy = 0.23181
+Auc: 0.743, validation cross entropy =0.317856
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00306
+Current training file index: 306, Training data size: 211036
+1474294431.927092: Worker 0: training step 3681 done (global step: 3700), cross entropy = 0.319646
+Auc: 0.743, validation cross entropy =0.317782
+1474294824.549388: Worker 0: training step 3781 done (global step: 3800), cross entropy = 0.226288
+Auc: 0.744, validation cross entropy =0.317816
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00303
+Current training file index: 303, Training data size: 212082
+1474295205.081240: Worker 0: training step 3881 done (global step: 3900), cross entropy = 0.209055
+Auc: 0.744, validation cross entropy =0.317323
+1474295598.301135: Worker 0: training step 3981 done (global step: 4000), cross entropy = 0.449247
+Auc: 0.745, validation cross entropy =0.316543
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00310
+Current training file index: 310, Training data size: 212606
+1474295978.188751: Worker 0: training step 4081 done (global step: 4100), cross entropy = 0.310539
+Auc: 0.745, validation cross entropy =0.316366
+1474296334.184275: Worker 0: training step 4181 done (global step: 4200), cross entropy = 0.373326
+Auc: 0.745, validation cross entropy =0.316129
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00302
+Current training file index: 302, Training data size: 211559
+1474296751.069272: Worker 0: training step 4281 done (global step: 4300), cross entropy = 0.505167
+Auc: 0.745, validation cross entropy =0.316193
+1474297105.291195: Worker 0: training step 4381 done (global step: 4400), cross entropy = 0.129626
+Auc: 0.745, validation cross entropy =0.315745
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00308
+Current training file index: 308, Training data size: 212130
+1474297521.550562: Worker 0: training step 4481 done (global step: 4500), cross entropy = 0.361697
+Auc: 0.745, validation cross entropy =0.31571
+1474297875.124214: Worker 0: training step 4581 done (global step: 4600), cross entropy = 0.215494
+Auc: 0.746, validation cross entropy =0.315419
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00311
+Current training file index: 311, Training data size: 211855
+1474298291.442077: Worker 0: training step 4681 done (global step: 4700), cross entropy = 0.189476
+Auc: 0.746, validation cross entropy =0.31557
+1474298644.346398: Worker 0: training step 4781 done (global step: 4800), cross entropy = 0.248105
+Auc: 0.746, validation cross entropy =0.31528
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00301
+Current training file index: 301, Training data size: 211736
+1474299062.195823: Worker 0: training step 4881 done (global step: 4900), cross entropy = 0.261524
+Auc: 0.746, validation cross entropy =0.315268
+1474299414.564844: Worker 0: training step 4981 done (global step: 5000), cross entropy = 0.279761
+Auc: 0.747, validation cross entropy =0.31518
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00311
+Current training file index: 311, Training data size: 211855
+1474299829.985829: Worker 0: training step 5081 done (global step: 5100), cross entropy = 0.318349
+Auc: 0.747, validation cross entropy =0.314655
+1474300183.201261: Worker 0: training step 5181 done (global step: 5200), cross entropy = 0.34158
+Auc: 0.747, validation cross entropy =0.314544
+1474300576.005589: Worker 0: training step 5281 done (global step: 5300), cross entropy = 0.382374
+Auc: 0.747, validation cross entropy =0.314136
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00303
+Current training file index: 303, Training data size: 212082
+1474300954.762995: Worker 0: training step 5381 done (global step: 5400), cross entropy = 0.360257
+Auc: 0.747, validation cross entropy =0.31407
+1474301344.847247: Worker 0: training step 5481 done (global step: 5500), cross entropy = 0.545797
+Auc: 0.748, validation cross entropy =0.31403
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00302
+Current training file index: 302, Training data size: 211559
+1474301725.217423: Worker 0: training step 5581 done (global step: 5600), cross entropy = 0.146101
+Auc: 0.747, validation cross entropy =0.313886
+1474302118.377540: Worker 0: training step 5681 done (global step: 5700), cross entropy = 0.345021
+Auc: 0.748, validation cross entropy =0.314034
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00306
+Current training file index: 306, Training data size: 211036
+1474302497.579262: Worker 0: training step 5781 done (global step: 5800), cross entropy = 0.257709
+Auc: 0.748, validation cross entropy =0.313658
+1474302892.349032: Worker 0: training step 5881 done (global step: 5900), cross entropy = 0.381678
+Auc: 0.748, validation cross entropy =0.313749
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00310
+Current training file index: 310, Training data size: 212606
+1474303270.045126: Worker 0: training step 5981 done (global step: 6000), cross entropy = 0.275891
+Auc: 0.748, validation cross entropy =0.313611
+1474303625.425569: Worker 0: training step 6081 done (global step: 6100), cross entropy = 0.333066
+Auc: 0.748, validation cross entropy =0.313202
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00305
+Current training file index: 305, Training data size: 212876
+1474304028.494348: Worker 0: training step 6181 done (global step: 6200), cross entropy = 0.475541
+Auc: 0.748, validation cross entropy =0.312995
+1474304382.869134: Worker 0: training step 6281 done (global step: 6300), cross entropy = 0.183159
+Auc: 0.748, validation cross entropy =0.313318
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00309
+Current training file index: 309, Training data size: 211515
+1474304787.524742: Worker 0: training step 6381 done (global step: 6400), cross entropy = 0.331732
+Auc: 0.748, validation cross entropy =0.313087
+1474305143.993318: Worker 0: training step 6481 done (global step: 6500), cross entropy = 0.207095
+Auc: 0.749, validation cross entropy =0.312985
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00300
+Current training file index: 300, Training data size: 211555
+1474305558.133557: Worker 0: training step 6581 done (global step: 6600), cross entropy = 0.248505
+Auc: 0.748, validation cross entropy =0.312769
+1474305912.158433: Worker 0: training step 6681 done (global step: 6700), cross entropy = 0.241277
+Auc: 0.748, validation cross entropy =0.312519
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00308
+Current training file index: 308, Training data size: 212130
+1474306327.727198: Worker 0: training step 6781 done (global step: 6800), cross entropy = 0.293495
+Auc: 0.749, validation cross entropy =0.312826
+1474306681.918481: Worker 0: training step 6881 done (global step: 6900), cross entropy = 0.305271
+Auc: 0.749, validation cross entropy =0.312503
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00307
+Current training file index: 307, Training data size: 211539
+1474307099.753054: Worker 0: training step 6981 done (global step: 7000), cross entropy = 0.461115
+Auc: 0.750, validation cross entropy =0.312417
+1474307451.701107: Worker 0: training step 7081 done (global step: 7100), cross entropy = 0.486669
+Auc: 0.749, validation cross entropy =0.31256
+1474307842.042249: Worker 0: training step 7181 done (global step: 7200), cross entropy = 0.498908
+Auc: 0.749, validation cross entropy =0.311979
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00301
+Current training file index: 301, Training data size: 211736
+1474308220.184259: Worker 0: training step 7281 done (global step: 7300), cross entropy = 0.374925
+Auc: 0.749, validation cross entropy =0.311693
+1474308605.306463: Worker 0: training step 7381 done (global step: 7400), cross entropy = 0.478047
+Auc: 0.749, validation cross entropy =0.312569
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00304
+Current training file index: 304, Training data size: 211334
+1474308984.790060: Worker 0: training step 7481 done (global step: 7500), cross entropy = 0.19472
+Auc: 0.749, validation cross entropy =0.311963
+1474309376.884781: Worker 0: training step 7581 done (global step: 7600), cross entropy = 0.506887
+Auc: 0.749, validation cross entropy =0.312001
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00309
+Current training file index: 309, Training data size: 211515
+1474309754.470169: Worker 0: training step 7681 done (global step: 7700), cross entropy = 0.26848
+Auc: 0.749, validation cross entropy =0.31187
+1474310132.861623: Worker 0: training step 7781 done (global step: 7800), cross entropy = 0.37626
+Auc: 0.749, validation cross entropy =0.312087
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00308
+Current training file index: 308, Training data size: 212130
+1474310513.012263: Worker 0: training step 7881 done (global step: 7900), cross entropy = 0.288914
+Auc: 0.749, validation cross entropy =0.311719
+1474310867.732982: Worker 0: training step 7981 done (global step: 8000), cross entropy = 0.355964
+Auc: 0.750, validation cross entropy =0.311704
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00304
+Current training file index: 304, Training data size: 211334
+1474311281.849976: Worker 0: training step 8081 done (global step: 8100), cross entropy = 0.403986
+Auc: 0.750, validation cross entropy =0.311468
+1474311635.121701: Worker 0: training step 8181 done (global step: 8200), cross entropy = 0.178211
+Auc: 0.750, validation cross entropy =0.311654
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00301
+Current training file index: 301, Training data size: 211736
+1474312052.461965: Worker 0: training step 8281 done (global step: 8300), cross entropy = 0.252393
+Auc: 0.750, validation cross entropy =0.311589
+1474312406.200959: Worker 0: training step 8381 done (global step: 8400), cross entropy = 0.233308
+Auc: 0.750, validation cross entropy =0.311533
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00306
+Current training file index: 306, Training data size: 211036
+1474312821.726449: Worker 0: training step 8481 done (global step: 8500), cross entropy = 0.205657
+Auc: 0.750, validation cross entropy =0.311496
+1474313176.063378: Worker 0: training step 8581 done (global step: 8600), cross entropy = 0.262686
+Auc: 0.750, validation cross entropy =0.311254
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00311
+Current training file index: 311, Training data size: 211855
+1474313592.752769: Worker 0: training step 8681 done (global step: 8700), cross entropy = 0.286389
+Auc: 0.750, validation cross entropy =0.311217
+1474313947.856395: Worker 0: training step 8781 done (global step: 8800), cross entropy = 0.312878
+Auc: 0.750, validation cross entropy =0.311053
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00310
+Current training file index: 310, Training data size: 212606
+1474314363.558850: Worker 0: training step 8881 done (global step: 8900), cross entropy = 0.407156
+Auc: 0.750, validation cross entropy =0.311055
+1474314717.538838: Worker 0: training step 8981 done (global step: 9000), cross entropy = 0.425746
+Auc: 0.750, validation cross entropy =0.310882
+1474315108.590103: Worker 0: training step 9081 done (global step: 9100), cross entropy = 0.519574
+Auc: 0.750, validation cross entropy =0.311021
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00302
+Current training file index: 302, Training data size: 211559
+1474315488.179944: Worker 0: training step 9181 done (global step: 9200), cross entropy = 0.378103
+Auc: 0.750, validation cross entropy =0.310889
+1474315880.805806: Worker 0: training step 9281 done (global step: 9300), cross entropy = 0.429741
+Auc: 0.750, validation cross entropy =0.310922
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00305
+Current training file index: 305, Training data size: 212876
+1474316259.072843: Worker 0: training step 9381 done (global step: 9400), cross entropy = 0.216231
+Auc: 0.750, validation cross entropy =0.310741
+1474316648.426482: Worker 0: training step 9481 done (global step: 9500), cross entropy = 0.479711
+Auc: 0.751, validation cross entropy =0.311042
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00303
+Current training file index: 303, Training data size: 212082
+1474317028.170002: Worker 0: training step 9581 done (global step: 9600), cross entropy = 0.250387
+Auc: 0.751, validation cross entropy =0.310669
+1474317420.548223: Worker 0: training step 9681 done (global step: 9700), cross entropy = 0.390083
+Auc: 0.751, validation cross entropy =0.310938
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00300
+Current training file index: 300, Training data size: 211555
+1474317800.136338: Worker 0: training step 9781 done (global step: 9800), cross entropy = 0.327748
+Auc: 0.751, validation cross entropy =0.310862
+1474318154.399255: Worker 0: training step 9881 done (global step: 9900), cross entropy = 0.356815
+Auc: 0.750, validation cross entropy =0.310598
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00307
+Current training file index: 307, Training data size: 211539
+1474318571.580500: Worker 0: training step 9981 done (global step: 10000), cross entropy = 0.33611
+Auc: 0.751, validation cross entropy =0.31051
+1474318924.180435: Worker 0: training step 10081 done (global step: 10100), cross entropy = 0.201777
+Auc: 0.751, validation cross entropy =0.310577
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00301
+Current training file index: 301, Training data size: 211736
+1474319341.114545: Worker 0: training step 10181 done (global step: 10200), cross entropy = 0.153724
+Auc: 0.750, validation cross entropy =0.310583
+1474319693.691618: Worker 0: training step 10281 done (global step: 10300), cross entropy = 0.241355
+Auc: 0.750, validation cross entropy =0.31056
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00304
+Current training file index: 304, Training data size: 211334
+1474320109.067936: Worker 0: training step 10381 done (global step: 10400), cross entropy = 0.221814
+Auc: 0.750, validation cross entropy =0.31065
+1474320463.207334: Worker 0: training step 10481 done (global step: 10500), cross entropy = 0.275883
+Auc: 0.750, validation cross entropy =0.310168
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00308
+Current training file index: 308, Training data size: 212130
+1474320878.161282: Worker 0: training step 10581 done (global step: 10600), cross entropy = 0.308204
+Auc: 0.750, validation cross entropy =0.31067
+1474321234.830741: Worker 0: training step 10681 done (global step: 10700), cross entropy = 0.354541
+Auc: 0.750, validation cross entropy =0.310651
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00306
+Current training file index: 306, Training data size: 211036
+1474321651.896473: Worker 0: training step 10781 done (global step: 10800), cross entropy = 0.348483
+Auc: 0.751, validation cross entropy =0.310317
+1474322004.384469: Worker 0: training step 10881 done (global step: 10900), cross entropy = 0.435249
+Auc: 0.751, validation cross entropy =0.310087
+1474322395.328737: Worker 0: training step 10981 done (global step: 11000), cross entropy = 0.504887
+Auc: 0.751, validation cross entropy =0.310015
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00305
+Current training file index: 305, Training data size: 212876
+1474322773.569413: Worker 0: training step 11081 done (global step: 11100), cross entropy = 0.349373
+Auc: 0.750, validation cross entropy =0.310513
+1474323167.267088: Worker 0: training step 11181 done (global step: 11200), cross entropy = 0.346549
+Auc: 0.750, validation cross entropy =0.310797
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00310
+Current training file index: 310, Training data size: 212606
+1474323548.592905: Worker 0: training step 11281 done (global step: 11300), cross entropy = 0.179743
+Auc: 0.751, validation cross entropy =0.309926
+1474323939.306049: Worker 0: training step 11381 done (global step: 11400), cross entropy = 0.416016
+Auc: 0.751, validation cross entropy =0.310246
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00311
+Current training file index: 311, Training data size: 211855
+1474324319.826097: Worker 0: training step 11481 done (global step: 11500), cross entropy = 0.301033
+Auc: 0.751, validation cross entropy =0.310099
+1474324674.006210: Worker 0: training step 11581 done (global step: 11600), cross entropy = 0.361979
+Auc: 0.750, validation cross entropy =0.310321
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00300
+Current training file index: 300, Training data size: 211555
+1474325091.411790: Worker 0: training step 11681 done (global step: 11700), cross entropy = 0.347452
+Auc: 0.750, validation cross entropy =0.310203
+1474325444.210663: Worker 0: training step 11781 done (global step: 11800), cross entropy = 0.296605
+Auc: 0.750, validation cross entropy =0.309982
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00303
+Current training file index: 303, Training data size: 212082
+1474325862.244534: Worker 0: training step 11881 done (global step: 11900), cross entropy = 0.310187
+Auc: 0.751, validation cross entropy =0.310328
+1474326216.497131: Worker 0: training step 11981 done (global step: 12000), cross entropy = 0.230925
+Auc: 0.751, validation cross entropy =0.310039
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00302
+Current training file index: 302, Training data size: 211559
+1474326631.976094: Worker 0: training step 12081 done (global step: 12100), cross entropy = 0.195915
+Auc: 0.751, validation cross entropy =0.310142
+1474326985.470594: Worker 0: training step 12181 done (global step: 12200), cross entropy = 0.266927
+Auc: 0.750, validation cross entropy =0.309722
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00307
+Current training file index: 307, Training data size: 211539
+1474327402.517095: Worker 0: training step 12281 done (global step: 12300), cross entropy = 0.25824
+Auc: 0.750, validation cross entropy =0.310064
+1474327756.361755: Worker 0: training step 12381 done (global step: 12400), cross entropy = 0.274347
+Auc: 0.750, validation cross entropy =0.309968
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00309
+Current training file index: 309, Training data size: 211515
+1474328172.334156: Worker 0: training step 12481 done (global step: 12500), cross entropy = 0.341018
+Auc: 0.750, validation cross entropy =0.309794
+1474328526.909007: Worker 0: training step 12581 done (global step: 12600), cross entropy = 0.33271
+Auc: 0.750, validation cross entropy =0.309872
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00304
+Current training file index: 304, Training data size: 211334
+1474328943.348210: Worker 0: training step 12681 done (global step: 12700), cross entropy = 0.281579
+Auc: 0.750, validation cross entropy =0.309777
+1474329297.984096: Worker 0: training step 12781 done (global step: 12800), cross entropy = 0.398016
+Auc: 0.750, validation cross entropy =0.30962
+1474329689.692088: Worker 0: training step 12881 done (global step: 12900), cross entropy = 0.298288
+Auc: 0.750, validation cross entropy =0.310142
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00307
+Current training file index: 307, Training data size: 211539
+1474330069.697906: Worker 0: training step 12981 done (global step: 13000), cross entropy = 0.333196
+Auc: 0.750, validation cross entropy =0.309795
+1474330464.410802: Worker 0: training step 13081 done (global step: 13100), cross entropy = 0.217415
+Auc: 0.750, validation cross entropy =0.309842
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00308
+Current training file index: 308, Training data size: 212130
+1474330845.078802: Worker 0: training step 13181 done (global step: 13200), cross entropy = 0.221974
+Auc: 0.750, validation cross entropy =0.309707
+1474331235.928184: Worker 0: training step 13281 done (global step: 13300), cross entropy = 0.380498
+Auc: 0.751, validation cross entropy =0.309711
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00305
+Current training file index: 305, Training data size: 212876
+1474331613.954739: Worker 0: training step 13381 done (global step: 13400), cross entropy = 0.26608
+Auc: 0.751, validation cross entropy =0.309689
+1474331967.444486: Worker 0: training step 13481 done (global step: 13500), cross entropy = 0.32388
+Auc: 0.751, validation cross entropy =0.309705
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00302
+Current training file index: 302, Training data size: 211559
+1474332383.578636: Worker 0: training step 13581 done (global step: 13600), cross entropy = 0.51752
+Auc: 0.751, validation cross entropy =0.309478
+1474332735.557770: Worker 0: training step 13681 done (global step: 13700), cross entropy = 0.147367
+Auc: 0.751, validation cross entropy =0.309453
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00303
+Current training file index: 303, Training data size: 212082
+1474333152.399834: Worker 0: training step 13781 done (global step: 13800), cross entropy = 0.350632
+Auc: 0.751, validation cross entropy =0.309395
+1474333506.205192: Worker 0: training step 13881 done (global step: 13900), cross entropy = 0.182579
+Auc: 0.751, validation cross entropy =0.309813
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00306
+Current training file index: 306, Training data size: 211036
+1474333912.998925: Worker 0: training step 13981 done (global step: 14000), cross entropy = 0.178929
+Auc: 0.751, validation cross entropy =0.309613
+1474334266.548097: Worker 0: training step 14081 done (global step: 14100), cross entropy = 0.247886
+Auc: 0.750, validation cross entropy =0.30923
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00310
+Current training file index: 310, Training data size: 212606
+1474334682.772657: Worker 0: training step 14181 done (global step: 14200), cross entropy = 0.247551
+Auc: 0.750, validation cross entropy =0.309591
+1474335035.623841: Worker 0: training step 14281 done (global step: 14300), cross entropy = 0.263945
+Auc: 0.750, validation cross entropy =0.309401
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00300
+Current training file index: 300, Training data size: 211555
+1474335451.865710: Worker 0: training step 14381 done (global step: 14400), cross entropy = 0.29716
+Auc: 0.750, validation cross entropy =0.309533
+1474335805.595778: Worker 0: training step 14481 done (global step: 14500), cross entropy = 0.321782
+Auc: 0.751, validation cross entropy =0.309709
+1474336196.482001: Worker 0: training step 14581 done (global step: 14600), cross entropy = 0.433141
+Auc: 0.750, validation cross entropy =0.309323
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00311
+Current training file index: 311, Training data size: 211855
+1474336574.489066: Worker 0: training step 14681 done (global step: 14700), cross entropy = 0.317911
+Auc: 0.751, validation cross entropy =0.309529
+1474336965.835129: Worker 0: training step 14781 done (global step: 14800), cross entropy = 0.555192
+Auc: 0.750, validation cross entropy =0.309747
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00301
+Current training file index: 301, Training data size: 211736
+1474337343.887777: Worker 0: training step 14881 done (global step: 14900), cross entropy = 0.13633
+Auc: 0.751, validation cross entropy =0.309435
+1474337735.526138: Worker 0: training step 14981 done (global step: 15000), cross entropy = 0.315663
+Auc: 0.751, validation cross entropy =0.309877
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00309
+Current training file index: 309, Training data size: 211515
+1474338114.118501: Worker 0: training step 15081 done (global step: 15100), cross entropy = 0.263961
+Auc: 0.750, validation cross entropy =0.309536
+1474338468.149239: Worker 0: training step 15181 done (global step: 15200), cross entropy = 0.421912
+Auc: 0.750, validation cross entropy =0.30936
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00306
+Current training file index: 306, Training data size: 211036
+1474338865.609767: Worker 0: training step 15281 done (global step: 15300), cross entropy = 0.31756
+Auc: 0.750, validation cross entropy =0.309603
+1474339219.850223: Worker 0: training step 15381 done (global step: 15400), cross entropy = 0.408423
+Auc: 0.750, validation cross entropy =0.309436
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00302
+Current training file index: 302, Training data size: 211559
+1474339637.185428: Worker 0: training step 15481 done (global step: 15500), cross entropy = 0.489701
+Auc: 0.750, validation cross entropy =0.309134
+1474339988.985201: Worker 0: training step 15581 done (global step: 15600), cross entropy = 0.130406
+Auc: 0.750, validation cross entropy =0.30973
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00303
+Current training file index: 303, Training data size: 212082
+1474340405.609163: Worker 0: training step 15681 done (global step: 15700), cross entropy = 0.365134
+Auc: 0.751, validation cross entropy =0.309528
+1474340759.863024: Worker 0: training step 15781 done (global step: 15800), cross entropy = 0.197239
+Auc: 0.751, validation cross entropy =0.309613
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00305
+Current training file index: 305, Training data size: 212876
+1474341174.169239: Worker 0: training step 15881 done (global step: 15900), cross entropy = 0.192249
+Auc: 0.751, validation cross entropy =0.309224
+1474341527.570505: Worker 0: training step 15981 done (global step: 16000), cross entropy = 0.27705
+Auc: 0.751, validation cross entropy =0.309361
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00309
+Current training file index: 309, Training data size: 211515
+1474341947.237421: Worker 0: training step 16081 done (global step: 16100), cross entropy = 0.286973
+Auc: 0.750, validation cross entropy =0.30934
+1474342301.055633: Worker 0: training step 16181 done (global step: 16200), cross entropy = 0.281269
+Auc: 0.750, validation cross entropy =0.309248
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00300
+Current training file index: 300, Training data size: 211555
+1474342715.812988: Worker 0: training step 16281 done (global step: 16300), cross entropy = 0.208095
+Auc: 0.750, validation cross entropy =0.309646
+1474343069.594613: Worker 0: training step 16381 done (global step: 16400), cross entropy = 0.416938
+Auc: 0.750, validation cross entropy =0.309567
+1474343460.434067: Worker 0: training step 16481 done (global step: 16500), cross entropy = 0.336108
+Auc: 0.750, validation cross entropy =0.30924
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00301
+Current training file index: 301, Training data size: 211736
+1474343840.682465: Worker 0: training step 16581 done (global step: 16600), cross entropy = 0.308692
+Auc: 0.750, validation cross entropy =0.309105
+1474344233.461659: Worker 0: training step 16681 done (global step: 16700), cross entropy = 0.481483
+Auc: 0.750, validation cross entropy =0.309513
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00311
+Current training file index: 311, Training data size: 211855
+1474344612.799238: Worker 0: training step 16781 done (global step: 16800), cross entropy = 0.158835
+Auc: 0.750, validation cross entropy =0.309314
+1474345004.578615: Worker 0: training step 16881 done (global step: 16900), cross entropy = 0.293202
+Auc: 0.750, validation cross entropy =0.309852
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00308
+Current training file index: 308, Training data size: 212130
+1474345383.016894: Worker 0: training step 16981 done (global step: 17000), cross entropy = 0.205476
+Auc: 0.750, validation cross entropy =0.309364
+1474345737.009733: Worker 0: training step 17081 done (global step: 17100), cross entropy = 0.418942
+Auc: 0.750, validation cross entropy =0.309316
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00307
+Current training file index: 307, Training data size: 211539
+1474346154.154566: Worker 0: training step 17181 done (global step: 17200), cross entropy = 0.293701
+Auc: 0.750, validation cross entropy =0.309712
+1474346507.961454: Worker 0: training step 17281 done (global step: 17300), cross entropy = 0.377329
+Auc: 0.750, validation cross entropy =0.309278
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00310
+Current training file index: 310, Training data size: 212606
+1474346923.503197: Worker 0: training step 17381 done (global step: 17400), cross entropy = 0.436852
+Auc: 0.750, validation cross entropy =0.309223
+1474347279.029519: Worker 0: training step 17481 done (global step: 17500), cross entropy = 0.181559
+Auc: 0.750, validation cross entropy =0.309757
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00304
+Current training file index: 304, Training data size: 211334
+1474347696.394987: Worker 0: training step 17581 done (global step: 17600), cross entropy = 0.307586
+Auc: 0.750, validation cross entropy =0.30935
+1474348052.155654: Worker 0: training step 17681 done (global step: 17700), cross entropy = 0.236201
+Auc: 0.750, validation cross entropy =0.309322
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00306
+Current training file index: 306, Training data size: 211036
+1474348469.151092: Worker 0: training step 17781 done (global step: 17800), cross entropy = 0.19188
+Auc: 0.750, validation cross entropy =0.309318
+1474348822.386663: Worker 0: training step 17881 done (global step: 17900), cross entropy = 0.279694
+Auc: 0.750, validation cross entropy =0.308968
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00301
+Current training file index: 301, Training data size: 211736
+1474349239.557088: Worker 0: training step 17981 done (global step: 18000), cross entropy = 0.284962
+Auc: 0.750, validation cross entropy =0.309411
+1474349593.599949: Worker 0: training step 18081 done (global step: 18100), cross entropy = 0.300737
+Auc: 0.750, validation cross entropy =0.309116
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00307
+Current training file index: 307, Training data size: 211539
+1474350009.564604: Worker 0: training step 18181 done (global step: 18200), cross entropy = 0.292541
+Auc: 0.750, validation cross entropy =0.309943
+1474350363.601710: Worker 0: training step 18281 done (global step: 18300), cross entropy = 0.536603
+Auc: 0.750, validation cross entropy =0.309404
+1474350753.907856: Worker 0: training step 18381 done (global step: 18400), cross entropy = 0.273901
+Auc: 0.749, validation cross entropy =0.30949
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00311
+Current training file index: 311, Training data size: 211855
+1474351130.834480: Worker 0: training step 18481 done (global step: 18500), cross entropy = 0.388271
+Auc: 0.749, validation cross entropy =0.309203
+1474351523.760514: Worker 0: training step 18581 done (global step: 18600), cross entropy = 0.503471
+Auc: 0.749, validation cross entropy =0.309772
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00302
+Current training file index: 302, Training data size: 211559
+1474351902.899361: Worker 0: training step 18681 done (global step: 18700), cross entropy = 0.183836
+Auc: 0.749, validation cross entropy =0.309162
+1474352294.171344: Worker 0: training step 18781 done (global step: 18800), cross entropy = 0.472604
+Auc: 0.750, validation cross entropy =0.309109
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00310
+Current training file index: 310, Training data size: 212606
+1474352673.820078: Worker 0: training step 18881 done (global step: 18900), cross entropy = 0.261306
+Auc: 0.749, validation cross entropy =0.30946
+1474353028.675871: Worker 0: training step 18981 done (global step: 19000), cross entropy = 0.398864
+Auc: 0.750, validation cross entropy =0.309109
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00304
+Current training file index: 304, Training data size: 211334
+1474353445.691610: Worker 0: training step 19081 done (global step: 19100), cross entropy = 0.287036
+Auc: 0.749, validation cross entropy =0.309812
+1474353800.257786: Worker 0: training step 19181 done (global step: 19200), cross entropy = 0.329863
+Auc: 0.749, validation cross entropy =0.309111
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00308
+Current training file index: 308, Training data size: 212130
+1474354216.684598: Worker 0: training step 19281 done (global step: 19300), cross entropy = 0.447843
+Auc: 0.749, validation cross entropy =0.309286
+1474354571.317391: Worker 0: training step 19381 done (global step: 19400), cross entropy = 0.163306
+Auc: 0.749, validation cross entropy =0.308803
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00300
+Current training file index: 300, Training data size: 211555
+1474354987.733089: Worker 0: training step 19481 done (global step: 19500), cross entropy = 0.250504
+Auc: 0.750, validation cross entropy =0.308935
+1474355342.983162: Worker 0: training step 19581 done (global step: 19600), cross entropy = 0.235271
+Auc: 0.749, validation cross entropy =0.309228
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00303
+Current training file index: 303, Training data size: 212082
+1474355762.067215: Worker 0: training step 19681 done (global step: 19700), cross entropy = 0.254809
+Auc: 0.750, validation cross entropy =0.309349
+1474356116.026061: Worker 0: training step 19781 done (global step: 19800), cross entropy = 0.283877
+Auc: 0.750, validation cross entropy =0.309185
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00305
+Current training file index: 305, Training data size: 212876
+1474356532.372704: Worker 0: training step 19881 done (global step: 19900), cross entropy = 0.279495
+Auc: 0.749, validation cross entropy =0.309127
+1474356887.911375: Worker 0: training step 19981 done (global step: 20000), cross entropy = 0.336872
+Auc: 0.749, validation cross entropy =0.309239
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00309
+Current training file index: 309, Training data size: 211515
+1474357303.762498: Worker 0: training step 20081 done (global step: 20100), cross entropy = 0.249367
+Auc: 0.749, validation cross entropy =0.309693
+1474357657.929726: Worker 0: training step 20181 done (global step: 20200), cross entropy = 0.436585
+Auc: 0.749, validation cross entropy =0.309271
+1474358048.506485: Worker 0: training step 20281 done (global step: 20300), cross entropy = 0.495329
+Auc: 0.749, validation cross entropy =0.309432
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00302
+Current training file index: 302, Training data size: 211559
+1474358427.457488: Worker 0: training step 20381 done (global step: 20400), cross entropy = 0.365935
+Auc: 0.749, validation cross entropy =0.309432
+1474358819.195109: Worker 0: training step 20481 done (global step: 20500), cross entropy = 0.427296
+Auc: 0.749, validation cross entropy =0.309477
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00306
+Current training file index: 306, Training data size: 211036
+1474359198.383145: Worker 0: training step 20581 done (global step: 20600), cross entropy = 0.226976
+Auc: 0.749, validation cross entropy =0.309088
+1474359590.392451: Worker 0: training step 20681 done (global step: 20700), cross entropy = 0.492122
+Auc: 0.749, validation cross entropy =0.309516
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00311
+Current training file index: 311, Training data size: 211855
+1474359971.338055: Worker 0: training step 20781 done (global step: 20800), cross entropy = 0.245917
+Auc: 0.749, validation cross entropy =0.309005
+1474360326.872311: Worker 0: training step 20881 done (global step: 20900), cross entropy = 0.366275
+Auc: 0.749, validation cross entropy =0.309228
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00307
+Current training file index: 307, Training data size: 211539
+1474360743.094960: Worker 0: training step 20981 done (global step: 21000), cross entropy = 0.303872
+Auc: 0.749, validation cross entropy =0.309587
+1474361096.775036: Worker 0: training step 21081 done (global step: 21100), cross entropy = 0.312248
+Auc: 0.749, validation cross entropy =0.309348
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00310
+Current training file index: 310, Training data size: 212606
+1474361513.193077: Worker 0: training step 21181 done (global step: 21200), cross entropy = 0.388083
+Auc: 0.749, validation cross entropy =0.309345
+1474361866.525229: Worker 0: training step 21281 done (global step: 21300), cross entropy = 0.226398
+Auc: 0.749, validation cross entropy =0.309006
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00304
+Current training file index: 304, Training data size: 211334
+1474362282.700553: Worker 0: training step 21381 done (global step: 21400), cross entropy = 0.167684
+Auc: 0.749, validation cross entropy =0.309653
+1474362638.403289: Worker 0: training step 21481 done (global step: 21500), cross entropy = 0.211368
+Auc: 0.749, validation cross entropy =0.309308
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00305
+Current training file index: 305, Training data size: 212876
+1474363055.801621: Worker 0: training step 21581 done (global step: 21600), cross entropy = 0.234532
+Auc: 0.749, validation cross entropy =0.310092
+1474363408.641176: Worker 0: training step 21681 done (global step: 21700), cross entropy = 0.277458
+Auc: 0.749, validation cross entropy =0.309197
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00300
+Current training file index: 300, Training data size: 211555
+1474363825.053117: Worker 0: training step 21781 done (global step: 21800), cross entropy = 0.31208
+Auc: 0.749, validation cross entropy =0.309262
+1474364179.712297: Worker 0: training step 21881 done (global step: 21900), cross entropy = 0.272309
+Auc: 0.749, validation cross entropy =0.309165
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00303
+Current training file index: 303, Training data size: 212082
+1474364595.915101: Worker 0: training step 21981 done (global step: 22000), cross entropy = 0.393659
+Auc: 0.749, validation cross entropy =0.308716
+1474364950.909678: Worker 0: training step 22081 done (global step: 22100), cross entropy = 0.393907
+Auc: 0.749, validation cross entropy =0.309399
+1474365341.213135: Worker 0: training step 22181 done (global step: 22200), cross entropy = 0.396945
+Auc: 0.749, validation cross entropy =0.309493
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00308
+Current training file index: 308, Training data size: 212130
+1474365719.652702: Worker 0: training step 22281 done (global step: 22300), cross entropy = 0.335854
+Auc: 0.749, validation cross entropy =0.309352
+1474366109.387569: Worker 0: training step 22381 done (global step: 22400), cross entropy = 0.251615
+Auc: 0.749, validation cross entropy =0.309344
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00301
+Current training file index: 301, Training data size: 211736
+1474366487.659915: Worker 0: training step 22481 done (global step: 22500), cross entropy = 0.206942
+Auc: 0.749, validation cross entropy =0.309196
+1474366841.136227: Worker 0: training step 22581 done (global step: 22600), cross entropy = 0.41365
+Auc: 0.748, validation cross entropy =0.309371
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00309
+Current training file index: 309, Training data size: 211515
+1474367255.295961: Worker 0: training step 22681 done (global step: 22700), cross entropy = 0.295155
+Auc: 0.748, validation cross entropy =0.309473
+1474367609.386359: Worker 0: training step 22781 done (global step: 22800), cross entropy = 0.298947
+Auc: 0.748, validation cross entropy =0.309303
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00310
+Current training file index: 310, Training data size: 212606
+1474368025.782013: Worker 0: training step 22881 done (global step: 22900), cross entropy = 0.312435
+Auc: 0.748, validation cross entropy =0.309299
+1474368379.517083: Worker 0: training step 22981 done (global step: 23000), cross entropy = 0.221274
+Auc: 0.748, validation cross entropy =0.309509
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00306
+Current training file index: 306, Training data size: 211036
+1474368794.511102: Worker 0: training step 23081 done (global step: 23100), cross entropy = 0.339372
+Auc: 0.748, validation cross entropy =0.309351
+1474369148.638682: Worker 0: training step 23181 done (global step: 23200), cross entropy = 0.207966
+Auc: 0.748, validation cross entropy =0.309312
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00307
+Current training file index: 307, Training data size: 211539
+1474369564.988877: Worker 0: training step 23281 done (global step: 23300), cross entropy = 0.179588
+Auc: 0.748, validation cross entropy =0.309383
+1474369919.021606: Worker 0: training step 23381 done (global step: 23400), cross entropy = 0.266763
+Auc: 0.749, validation cross entropy =0.309458
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00302
+Current training file index: 302, Training data size: 211559
+1474370335.952027: Worker 0: training step 23481 done (global step: 23500), cross entropy = 0.237526
+Auc: 0.748, validation cross entropy =0.309479
+1474370689.726944: Worker 0: training step 23581 done (global step: 23600), cross entropy = 0.269352
+Auc: 0.748, validation cross entropy =0.30925
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00303
+Current training file index: 303, Training data size: 212082
+1474371105.678471: Worker 0: training step 23681 done (global step: 23700), cross entropy = 0.299022
+Auc: 0.748, validation cross entropy =0.309458
+1474371460.228659: Worker 0: training step 23781 done (global step: 23800), cross entropy = 0.303468
+Auc: 0.748, validation cross entropy =0.309419
+1474371851.134618: Worker 0: training step 23881 done (global step: 23900), cross entropy = 0.509533
+Auc: 0.748, validation cross entropy =0.309567
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00301
+Current training file index: 301, Training data size: 211736
+1474372231.254181: Worker 0: training step 23981 done (global step: 24000), cross entropy = 0.384326
+Auc: 0.748, validation cross entropy =0.30913
+1474372622.423320: Worker 0: training step 24081 done (global step: 24100), cross entropy = 0.237901
+Auc: 0.748, validation cross entropy =0.309213
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00311
+Current training file index: 311, Training data size: 211855
+1474373000.427677: Worker 0: training step 24181 done (global step: 24200), cross entropy = 0.243253
+Auc: 0.748, validation cross entropy =0.309292
+1474373392.539994: Worker 0: training step 24281 done (global step: 24300), cross entropy = 0.295594
+Auc: 0.748, validation cross entropy =0.309221
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00304
+Current training file index: 304, Training data size: 211334
+1474373771.794167: Worker 0: training step 24381 done (global step: 24400), cross entropy = 0.271669
+Auc: 0.748, validation cross entropy =0.309386
+1474374127.249308: Worker 0: training step 24481 done (global step: 24500), cross entropy = 0.444448
+Auc: 0.748, validation cross entropy =0.309331
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00308
+Current training file index: 308, Training data size: 212130
+1474374542.720237: Worker 0: training step 24581 done (global step: 24600), cross entropy = 0.259116
+Auc: 0.748, validation cross entropy =0.309562
+1474374897.101558: Worker 0: training step 24681 done (global step: 24700), cross entropy = 0.36687
+Auc: 0.748, validation cross entropy =0.308932
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00305
+Current training file index: 305, Training data size: 212876
+1474375312.572340: Worker 0: training step 24781 done (global step: 24800), cross entropy = 0.486938
+Auc: 0.748, validation cross entropy =0.30947
+1474375666.497511: Worker 0: training step 24881 done (global step: 24900), cross entropy = 0.155081
+Auc: 0.748, validation cross entropy =0.309592
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00300
+Current training file index: 300, Training data size: 211555
+1474376082.624114: Worker 0: training step 24981 done (global step: 25000), cross entropy = 0.360763
+Auc: 0.748, validation cross entropy =0.309844
+1474376436.025596: Worker 0: training step 25081 done (global step: 25100), cross entropy = 0.212947
+Auc: 0.748, validation cross entropy =0.309328
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00309
+Current training file index: 309, Training data size: 211515
+1474376850.996519: Worker 0: training step 25181 done (global step: 25200), cross entropy = 0.196236
+Auc: 0.748, validation cross entropy =0.309438
+1474377205.534674: Worker 0: training step 25281 done (global step: 25300), cross entropy = 0.276544
+Auc: 0.749, validation cross entropy =0.30961
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00310
+Current training file index: 310, Training data size: 212606
+1474377621.931662: Worker 0: training step 25381 done (global step: 25400), cross entropy = 0.248449
+Auc: 0.749, validation cross entropy =0.309675
+1474377977.400984: Worker 0: training step 25481 done (global step: 25500), cross entropy = 0.256317
+Auc: 0.748, validation cross entropy =0.309625
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00300
+Current training file index: 300, Training data size: 211555
+1474378394.110197: Worker 0: training step 25581 done (global step: 25600), cross entropy = 0.300789
+Auc: 0.748, validation cross entropy =0.309229
+1474378747.530285: Worker 0: training step 25681 done (global step: 25700), cross entropy = 0.311682
+Auc: 0.748, validation cross entropy =0.309071
+1474379139.202431: Worker 0: training step 25781 done (global step: 25800), cross entropy = 0.435479
+Auc: 0.748, validation cross entropy =0.309295
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00301
+Current training file index: 301, Training data size: 211736
+1474379517.608224: Worker 0: training step 25881 done (global step: 25900), cross entropy = 0.352683
+Auc: 0.748, validation cross entropy =0.308908
+1474379908.392891: Worker 0: training step 25981 done (global step: 26000), cross entropy = 0.554736
+Auc: 0.748, validation cross entropy =0.309033
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00308
+Current training file index: 308, Training data size: 212130
+1474380288.606051: Worker 0: training step 26081 done (global step: 26100), cross entropy = 0.161339
+Auc: 0.748, validation cross entropy =0.30942
+1474380642.704157: Worker 0: training step 26181 done (global step: 26200), cross entropy = 0.371877
+Auc: 0.748, validation cross entropy =0.30947
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00306
+Current training file index: 306, Training data size: 211036
+1474381058.113455: Worker 0: training step 26281 done (global step: 26300), cross entropy = 0.243483
+Auc: 0.748, validation cross entropy =0.309104
+1474381411.128600: Worker 0: training step 26381 done (global step: 26400), cross entropy = 0.368735
+Auc: 0.748, validation cross entropy =0.3095
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00311
+Current training file index: 311, Training data size: 211855
+1474381826.840892: Worker 0: training step 26481 done (global step: 26500), cross entropy = 0.29693
+Auc: 0.748, validation cross entropy =0.309656
+1474382181.025468: Worker 0: training step 26581 done (global step: 26600), cross entropy = 0.318771
+Auc: 0.748, validation cross entropy =0.309195
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00303
+Current training file index: 303, Training data size: 212082
+1474382596.689110: Worker 0: training step 26681 done (global step: 26700), cross entropy = 0.416961
+Auc: 0.748, validation cross entropy =0.309596
+1474382951.002980: Worker 0: training step 26781 done (global step: 26800), cross entropy = 0.179248
+Auc: 0.748, validation cross entropy =0.309304
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00309
+Current training file index: 309, Training data size: 211515
+1474383367.393869: Worker 0: training step 26881 done (global step: 26900), cross entropy = 0.367894
+Auc: 0.748, validation cross entropy =0.309489
+1474383721.859720: Worker 0: training step 26981 done (global step: 27000), cross entropy = 0.232594
+Auc: 0.747, validation cross entropy =0.309641
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00304
+Current training file index: 304, Training data size: 211334
+1474384138.302281: Worker 0: training step 27081 done (global step: 27100), cross entropy = 0.202929
+Auc: 0.747, validation cross entropy =0.309624
+1474384491.549282: Worker 0: training step 27181 done (global step: 27200), cross entropy = 0.254187
+Auc: 0.747, validation cross entropy =0.309498
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00302
+Current training file index: 302, Training data size: 211559
+1474384906.399383: Worker 0: training step 27281 done (global step: 27300), cross entropy = 0.260299
+Auc: 0.747, validation cross entropy =0.309368
+1474385260.107073: Worker 0: training step 27381 done (global step: 27400), cross entropy = 0.274291
+Auc: 0.747, validation cross entropy =0.309313
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00307
+Current training file index: 307, Training data size: 211539
+1474385673.453921: Worker 0: training step 27481 done (global step: 27500), cross entropy = 0.206785
+Auc: 0.747, validation cross entropy =0.309511
+1474386027.534163: Worker 0: training step 27581 done (global step: 27600), cross entropy = 0.408243
+Auc: 0.747, validation cross entropy =0.309591
+1474386419.440709: Worker 0: training step 27681 done (global step: 27700), cross entropy = 0.28168
+Auc: 0.747, validation cross entropy =0.309285
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00305
+Current training file index: 305, Training data size: 212876
+1474386797.694284: Worker 0: training step 27781 done (global step: 27800), cross entropy = 0.359982
+Auc: 0.747, validation cross entropy =0.30915
+1474387189.096812: Worker 0: training step 27881 done (global step: 27900), cross entropy = 0.502119
+Auc: 0.747, validation cross entropy =0.309265
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00309
+Current training file index: 309, Training data size: 211515
+1474387568.031807: Worker 0: training step 27981 done (global step: 28000), cross entropy = 0.152101
+Auc: 0.747, validation cross entropy =0.308961
+1474387920.981863: Worker 0: training step 28081 done (global step: 28100), cross entropy = 0.374529
+Auc: 0.747, validation cross entropy =0.3096
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00303
+Current training file index: 303, Training data size: 212082
+1474388337.265151: Worker 0: training step 28181 done (global step: 28200), cross entropy = 0.214278
+Auc: 0.747, validation cross entropy =0.309735
+1474388692.299067: Worker 0: training step 28281 done (global step: 28300), cross entropy = 0.400031
+Auc: 0.747, validation cross entropy =0.309366
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00300
+Current training file index: 300, Training data size: 211555
+1474389107.529485: Worker 0: training step 28381 done (global step: 28400), cross entropy = 0.288862
+Auc: 0.747, validation cross entropy =0.309185
+1474389462.425738: Worker 0: training step 28481 done (global step: 28500), cross entropy = 0.336159
+Auc: 0.747, validation cross entropy =0.309407
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00310
+Current training file index: 310, Training data size: 212606
+1474389878.827473: Worker 0: training step 28581 done (global step: 28600), cross entropy = 0.379878
+Auc: 0.747, validation cross entropy =0.309432
+1474390233.308626: Worker 0: training step 28681 done (global step: 28700), cross entropy = 0.184348
+Auc: 0.748, validation cross entropy =0.309144
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00304
+Current training file index: 304, Training data size: 211334
+1474390650.167097: Worker 0: training step 28781 done (global step: 28800), cross entropy = 0.243797
+Auc: 0.747, validation cross entropy =0.309357
+1474391004.248364: Worker 0: training step 28881 done (global step: 28900), cross entropy = 0.220894
+Auc: 0.747, validation cross entropy =0.309139
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00311
+Current training file index: 311, Training data size: 211855
+1474391421.636564: Worker 0: training step 28981 done (global step: 29000), cross entropy = 0.227117
+Auc: 0.747, validation cross entropy =0.309274
+1474391777.270954: Worker 0: training step 29081 done (global step: 29100), cross entropy = 0.266173
+Auc: 0.747, validation cross entropy =0.309341
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00306
+Current training file index: 306, Training data size: 211036
+1474392194.528428: Worker 0: training step 29181 done (global step: 29200), cross entropy = 0.286145
+Auc: 0.747, validation cross entropy =0.309516
+1474392549.355215: Worker 0: training step 29281 done (global step: 29300), cross entropy = 0.311305
+Auc: 0.747, validation cross entropy =0.309091
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00305
+Current training file index: 305, Training data size: 212876
+1474392966.233541: Worker 0: training step 29381 done (global step: 29400), cross entropy = 0.38189
+Auc: 0.747, validation cross entropy =0.309388
+1474393319.986552: Worker 0: training step 29481 done (global step: 29500), cross entropy = 0.435635
+Auc: 0.747, validation cross entropy =0.309381
+1474393710.786077: Worker 0: training step 29581 done (global step: 29600), cross entropy = 0.491231
+Auc: 0.747, validation cross entropy =0.309095
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00308
+Current training file index: 308, Training data size: 212130
+1474394090.278862: Worker 0: training step 29681 done (global step: 29700), cross entropy = 0.321998
+Auc: 0.747, validation cross entropy =0.309505
+1474394479.852362: Worker 0: training step 29781 done (global step: 29800), cross entropy = 0.43443
+Auc: 0.747, validation cross entropy =0.309377
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00307
+Current training file index: 307, Training data size: 211539
+1474394858.885775: Worker 0: training step 29881 done (global step: 29900), cross entropy = 0.19076
+Auc: 0.747, validation cross entropy =0.309567
+1474395211.237216: Worker 0: training step 29981 done (global step: 30000), cross entropy = 0.487648
+Auc: 0.747, validation cross entropy =0.309502
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00302
+Current training file index: 302, Training data size: 211559
+1474395627.979271: Worker 0: training step 30081 done (global step: 30100), cross entropy = 0.234179
+Auc: 0.746, validation cross entropy =0.309487
+1474395982.926326: Worker 0: training step 30181 done (global step: 30200), cross entropy = 0.384903
+Auc: 0.746, validation cross entropy =0.309026
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00301
+Current training file index: 301, Training data size: 211736
+1474396400.020489: Worker 0: training step 30281 done (global step: 30300), cross entropy = 0.319582
+Auc: 0.746, validation cross entropy =0.30943
+1474396754.642883: Worker 0: training step 30381 done (global step: 30400), cross entropy = 0.306949
+Auc: 0.746, validation cross entropy =0.309304
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00302
+Current training file index: 302, Training data size: 211559
+1474397171.907470: Worker 0: training step 30481 done (global step: 30500), cross entropy = 0.365783
+Auc: 0.746, validation cross entropy =0.309433
+1474397527.144653: Worker 0: training step 30581 done (global step: 30600), cross entropy = 0.178932
+Auc: 0.747, validation cross entropy =0.309395
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00307
+Current training file index: 307, Training data size: 211539
+1474397944.165045: Worker 0: training step 30681 done (global step: 30700), cross entropy = 0.134431
+Auc: 0.746, validation cross entropy =0.309711
+1474398297.144947: Worker 0: training step 30781 done (global step: 30800), cross entropy = 0.271823
+Auc: 0.746, validation cross entropy =0.309529
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00309
+Current training file index: 309, Training data size: 211515
+1474398712.692551: Worker 0: training step 30881 done (global step: 30900), cross entropy = 0.202306
+Auc: 0.746, validation cross entropy =0.309541
+1474399066.009993: Worker 0: training step 30981 done (global step: 31000), cross entropy = 0.241217
+Auc: 0.746, validation cross entropy =0.309503
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00303
+Current training file index: 303, Training data size: 212082
+1474399482.175625: Worker 0: training step 31081 done (global step: 31100), cross entropy = 0.305004
+Auc: 0.746, validation cross entropy =0.309824
+1474399835.295314: Worker 0: training step 31181 done (global step: 31200), cross entropy = 0.28109
+Auc: 0.746, validation cross entropy =0.309627
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00308
+Current training file index: 308, Training data size: 212130
+1474400250.934237: Worker 0: training step 31281 done (global step: 31300), cross entropy = 0.250224
+Auc: 0.746, validation cross entropy =0.309393
+1474400606.458253: Worker 0: training step 31381 done (global step: 31400), cross entropy = 0.404388
+Auc: 0.746, validation cross entropy =0.309325
+1474400998.127241: Worker 0: training step 31481 done (global step: 31500), cross entropy = 0.496851
+Auc: 0.746, validation cross entropy =0.309523
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00310
+Current training file index: 310, Training data size: 212606
+1474401378.488452: Worker 0: training step 31581 done (global step: 31600), cross entropy = 0.327263
+Auc: 0.746, validation cross entropy =0.309444
+1474401771.330170: Worker 0: training step 31681 done (global step: 31700), cross entropy = 0.298875
+Auc: 0.746, validation cross entropy =0.30907
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00301
+Current training file index: 301, Training data size: 211736
+1474402150.425276: Worker 0: training step 31781 done (global step: 31800), cross entropy = 0.210085
+Auc: 0.746, validation cross entropy =0.309081
+1474402504.730213: Worker 0: training step 31881 done (global step: 31900), cross entropy = 0.440859
+Auc: 0.746, validation cross entropy =0.309674
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00300
+Current training file index: 300, Training data size: 211555
+1474402919.617062: Worker 0: training step 31981 done (global step: 32000), cross entropy = 0.266464
+Auc: 0.746, validation cross entropy =0.309318
+1474403275.282589: Worker 0: training step 32081 done (global step: 32100), cross entropy = 0.301786
+Auc: 0.746, validation cross entropy =0.309521
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00311
+Current training file index: 311, Training data size: 211855
+1474403690.026084: Worker 0: training step 32181 done (global step: 32200), cross entropy = 0.360235
+Auc: 0.746, validation cross entropy =0.309498
+1474404043.846915: Worker 0: training step 32281 done (global step: 32300), cross entropy = 0.264509
+Auc: 0.746, validation cross entropy =0.309247
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00306
+Current training file index: 306, Training data size: 211036
+1474404459.912374: Worker 0: training step 32381 done (global step: 32400), cross entropy = 0.393997
+Auc: 0.746, validation cross entropy =0.309484
+1474404813.137090: Worker 0: training step 32481 done (global step: 32500), cross entropy = 0.190741
+Auc: 0.746, validation cross entropy =0.309094
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00305
+Current training file index: 305, Training data size: 212876
+1474405231.053228: Worker 0: training step 32581 done (global step: 32600), cross entropy = 0.168952
+Auc: 0.746, validation cross entropy =0.309738
+1474405584.370152: Worker 0: training step 32681 done (global step: 32700), cross entropy = 0.252036
+Auc: 0.746, validation cross entropy =0.309258
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00304
+Current training file index: 304, Training data size: 211334
+1474405999.556378: Worker 0: training step 32781 done (global step: 32800), cross entropy = 0.215868
+Auc: 0.746, validation cross entropy =0.309467
+1474406353.326259: Worker 0: training step 32881 done (global step: 32900), cross entropy = 0.299516
+Auc: 0.746, validation cross entropy =0.30936
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00302
+Current training file index: 302, Training data size: 211559
+1474406768.212237: Worker 0: training step 32981 done (global step: 33000), cross entropy = 0.293341
+Auc: 0.745, validation cross entropy =0.309518
+1474407120.928917: Worker 0: training step 33081 done (global step: 33100), cross entropy = 0.332602
+Auc: 0.745, validation cross entropy =0.309394
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00305
+Current training file index: 305, Training data size: 212876
+1474407538.821275: Worker 0: training step 33181 done (global step: 33200), cross entropy = 0.251146
+Auc: 0.745, validation cross entropy =0.309273
+1474407891.181730: Worker 0: training step 33281 done (global step: 33300), cross entropy = 0.375682
+Auc: 0.745, validation cross entropy =0.309653
+1474408282.470395: Worker 0: training step 33381 done (global step: 33400), cross entropy = 0.25051
+Auc: 0.745, validation cross entropy =0.309403
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00307
+Current training file index: 307, Training data size: 211539
+1474408661.170977: Worker 0: training step 33481 done (global step: 33500), cross entropy = 0.323906
+Auc: 0.745, validation cross entropy =0.309529
+1474409053.110556: Worker 0: training step 33581 done (global step: 33600), cross entropy = 0.207845
+Auc: 0.745, validation cross entropy =0.309608
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00310
+Current training file index: 310, Training data size: 212606
+1474409433.812228: Worker 0: training step 33681 done (global step: 33700), cross entropy = 0.22681
+Auc: 0.745, validation cross entropy =0.309403
+1474409788.090805: Worker 0: training step 33781 done (global step: 33800), cross entropy = 0.415603
+Auc: 0.745, validation cross entropy =0.309379
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00306
+Current training file index: 306, Training data size: 211036
+1474410203.306639: Worker 0: training step 33881 done (global step: 33900), cross entropy = 0.262618
+Auc: 0.745, validation cross entropy =0.309847
+1474410558.108486: Worker 0: training step 33981 done (global step: 34000), cross entropy = 0.349317
+Auc: 0.745, validation cross entropy =0.309864
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00311
+Current training file index: 311, Training data size: 211855
+1474410974.033127: Worker 0: training step 34081 done (global step: 34100), cross entropy = 0.362473
+Auc: 0.745, validation cross entropy =0.309732
+1474411328.152796: Worker 0: training step 34181 done (global step: 34200), cross entropy = 0.123645
+Auc: 0.745, validation cross entropy =0.30926
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00303
+Current training file index: 303, Training data size: 212082
+1474411744.836987: Worker 0: training step 34281 done (global step: 34300), cross entropy = 0.34804
+Auc: 0.745, validation cross entropy =0.309619
+1474412099.435348: Worker 0: training step 34381 done (global step: 34400), cross entropy = 0.233385
+Auc: 0.745, validation cross entropy =0.309684
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00300
+Current training file index: 300, Training data size: 211555
+1474412514.337115: Worker 0: training step 34481 done (global step: 34500), cross entropy = 0.161526
+Auc: 0.745, validation cross entropy =0.3098
+1474412868.126095: Worker 0: training step 34581 done (global step: 34600), cross entropy = 0.252102
+Auc: 0.745, validation cross entropy =0.309561
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00301
+Current training file index: 301, Training data size: 211736
+1474413282.906020: Worker 0: training step 34681 done (global step: 34700), cross entropy = 0.284448
+Auc: 0.746, validation cross entropy =0.309694
+1474413635.808543: Worker 0: training step 34781 done (global step: 34800), cross entropy = 0.318776
+Auc: 0.745, validation cross entropy =0.309245
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00309
+Current training file index: 309, Training data size: 211515
+1474414051.885349: Worker 0: training step 34881 done (global step: 34900), cross entropy = 0.347978
+Auc: 0.745, validation cross entropy =0.309938
+1474414405.337713: Worker 0: training step 34981 done (global step: 35000), cross entropy = 0.328332
+Auc: 0.745, validation cross entropy =0.309521
+1474414797.663055: Worker 0: training step 35081 done (global step: 35100), cross entropy = 0.464826
+Auc: 0.745, validation cross entropy =0.310209
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00308
+Current training file index: 308, Training data size: 212130
+1474415178.031558: Worker 0: training step 35181 done (global step: 35200), cross entropy = 0.381105
+Auc: 0.745, validation cross entropy =0.30978
+1474415568.678449: Worker 0: training step 35281 done (global step: 35300), cross entropy = 0.306975
+Auc: 0.745, validation cross entropy =0.309607
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00304
+Current training file index: 304, Training data size: 211334
+1474415948.187779: Worker 0: training step 35381 done (global step: 35400), cross entropy = 0.137178
+Auc: 0.745, validation cross entropy =0.309298
+1474416302.969327: Worker 0: training step 35481 done (global step: 35500), cross entropy = 0.333656
+Auc: 0.745, validation cross entropy =0.309779
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00304
+Current training file index: 304, Training data size: 211334
+1474416718.553127: Worker 0: training step 35581 done (global step: 35600), cross entropy = 0.269383
+Auc: 0.745, validation cross entropy =0.309815
+1474417072.050039: Worker 0: training step 35681 done (global step: 35700), cross entropy = 0.414549
+Auc: 0.745, validation cross entropy =0.310071
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00307
+Current training file index: 307, Training data size: 211539
+1474417487.716618: Worker 0: training step 35781 done (global step: 35800), cross entropy = 0.295215
+Auc: 0.745, validation cross entropy =0.309817
+1474417841.895591: Worker 0: training step 35881 done (global step: 35900), cross entropy = 0.381157
+Auc: 0.745, validation cross entropy =0.309625
+/home/chuanxin.tcx/Test/Data/train_shuffled_part-00311
+Current training file index: 311, Training data size: 211855
+1474418257.35
