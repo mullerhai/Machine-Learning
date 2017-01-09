@@ -1,0 +1,5 @@
+nohup: ignoring input
+I0929 16:05:31.237602188  240442 socket_utils_common_posix.c:161] Disabling AF_INET6 sockets because socket() failed.
+Training ends @ 1475148618.349299
+
+Training elapsed time: 12114.879518 s
