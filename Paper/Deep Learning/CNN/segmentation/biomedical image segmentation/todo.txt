@@ -1,0 +1,18 @@
+该领域存在的问题：
+标注数据少、不均衡、像素之间的relation、cluster、appearance variation、scale
+
+
+U-Net,使用了weighted cross entropy解不均衡问题
+DICE LOSS,解决不均衡问题？
+MIT论文及代码https://github.com/Borda/segment-nuclei/tree/master/code/helper
+DAN，利用未标注数据
+pixel-wise loss,不能学到relation信息，现有方法crf、multi-scale and multi-patch、U-net中的skip
+
+
+
+去掉resize
+数据增强
+Lr的设置
+模型初始化
+TTA
+多fold
