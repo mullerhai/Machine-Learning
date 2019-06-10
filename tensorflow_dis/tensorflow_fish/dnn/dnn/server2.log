@@ -1,5 +1,0 @@
-nohup: ignoring input
-I0929 15:32:07.847465585  231853 socket_utils_common_posix.c:161] Disabling AF_INET6 sockets because socket() failed.
-I tensorflow/core/distributed_runtime/rpc/grpc_channel.cc:206] Initialize HostPortsGrpcChannelCache for job worker -> {tf1.kgb.et2:3222, tf2.kgb.et2:3222, tf3.kgb.et2:3222}
-I tensorflow/core/distributed_runtime/rpc/grpc_channel.cc:206] Initialize HostPortsGrpcChannelCache for job ps -> {localhost:3224}
-I tensorflow/core/distributed_runtime/rpc/grpc_server_lib.cc:202] Started server with target: grpc://localhost:3224
