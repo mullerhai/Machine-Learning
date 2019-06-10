@@ -1,0 +1,15 @@
+1，A multi-scene deep learning model for image aesthetic evaluation
+最后的卷积层并行7个卷积group，每个group代表一个scene
+
+2，Brain-Inspired Deep Networks for Image Aesthetics Assessment
+先用有监督方法并行预训练多个全卷积分类网络，将这些网络最后一个卷积层特征级联在一起，接一个网络进行最终的美学质量模型训练
+
+3，Deep Aesthetic Quality Assessment with Semantic Information
+多任务的方法
+
+4，Composition-preserving Deep Photo Aesthetics Assessment
+多个不同scale的asp net和一个预训练好的scene category net级连在一起接个fc层作为最终输出
+
+5，A-Lamp: Adaptive Layout-Aware Multi-Patch Deep Convolutional Neural Network for Photo Aesthetic Assessment
+
+美学质量分类的一个问题是：输入的图片需要被转换成固定尺寸，这会使图片等美学质量受到变化。文献[4]使用spp-net直接处理输入image，并用多scale来模拟多size输入
